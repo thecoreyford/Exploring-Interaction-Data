@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codetta>
+  <GlobalTempo bpm="120"/>
+  <Block id="StartBlock" x="173.0" y="137.0"/>
+  <Block id="Pad" x="271.0" y="287.0"/>
+  <Block id="ThreeFourBar" x="524.0" y="137.0">
+    <Note length="2" pitchOffset="6"/>
+    <Note length="3" pitchOffset="3"/>
+    <Note length="3" pitchOffset="1"/>
+    <Note length="3" pitchOffset="0"/>
+    <Note length="3" pitchOffset="-1"/>
+  </Block>
+  <Block id="EndRepeat" x="821.0" y="137.0" noRepeats="7">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+  <Block id="StartRepeat" x="373.0" y="137.0"/>
+  <Block id="DynamicsBlock" x="288.0" y="137.0" dynamicID="6"/>
+  <Block id="DynamicsChanger" x="706.0" y="137.0" dynamicsIncrement="-15"/>
+  <Block id="BassClef" x="386.0" y="287.0"/>
+  <Block id="StartRepeat" x="586.0" y="287.0"/>
+  <Block id="ThreeFourBar" x="737.0" y="287.0">
+    <Note length="1" pitchOffset="-3"/>
+    <Note length="2" pitchOffset="-2"/>
+  </Block>
+  <Block id="DynamicsChanger" x="919.0" y="287.0" dynamicsIncrement="20"/>
+  <Block id="EndRepeat" x="1034.0" y="287.0" noRepeats="7">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+  <Block id="DynamicsBlock" x="501.0" y="287.0" dynamicID="1"/>
+</codetta>

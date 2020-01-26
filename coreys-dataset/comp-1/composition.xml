@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codetta>
+  <GlobalTempo bpm="120"/>
+  <Block id="StartBlock" x="174.0" y="119.0"/>
+  <Block id="Glockenspiel" x="246.0" y="260.0"/>
+  <Block id="ThreeFourBar" x="471.0" y="119.0">
+    <Note length="2" pitchOffset="-3"/>
+    <Note length="2" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="1"/>
+  </Block>
+  <Block id="ThreeFourBar" x="720.0" y="119.0">
+    <Note length="2" pitchOffset="-2"/>
+    <Note length="2" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="1"/>
+  </Block>
+  <Block id="ThreeFourBar" x="969.0" y="119.0">
+    <Note length="2" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="1"/>
+  </Block>
+  <Block id="ThreeFourBar" x="1218.0" y="119.0">
+    <Note length="2" pitchOffset="0"/>
+    <Note length="2" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="1"/>
+  </Block>
+  <Block id="ThreeFourBar" x="597.0" y="260.0">
+    <Note length="2" pitchOffset="-3"/>
+    <Note length="2" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="1"/>
+  </Block>
+  <Block id="EndRepeat" x="779.0" y="260.0" noRepeats="3">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+  <Block id="EndRepeat" x="1400.0" y="119.0" noRepeats="1">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+  <Block id="StartRepeat" x="446.0" y="260.0"/>
+  <Block id="EndRepeat" x="894.0" y="260.0" noRepeats="1">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+  <Block id="DynamicsBlock" x="361.0" y="260.0" dynamicID="1"/>
+  <Block id="DynamicsBlock" x="289.0" y="119.0" dynamicID="6"/>
+</codetta>

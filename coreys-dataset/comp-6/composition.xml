@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codetta>
+  <GlobalTempo bpm="40"/>
+  <Block id="Violin" x="394.0" y="107.0"/>
+  <Block id="Viola" x="415.0" y="258.0"/>
+  <Block id="Cello" x="440.0" y="421.0"/>
+  <Block id="TwoFourBar" x="534.0" y="107.0">
+    <Note length="1" pitchOffset="3"/>
+  </Block>
+  <Block id="BassClef" x="555.0" y="421.0"/>
+  <Block id="TwoFourBar" x="555.0" y="258.0">
+    <Note length="1" pitchOffset="1"/>
+  </Block>
+  <Block id="TwoFourBar" x="695.0" y="421.0">
+    <Note length="1" pitchOffset="-1"/>
+  </Block>
+  <Block id="TwoFourBar" x="698.0" y="107.0">
+    <Note length="1" pitchOffset="2"/>
+  </Block>
+  <Block id="TwoFourBar" x="719.0" y="258.0">
+    <Note length="1" pitchOffset="5"/>
+  </Block>
+  <Block id="TwoFourBar" x="859.0" y="421.0">
+    <Note length="1" pitchOffset="-1"/>
+  </Block>
+  <Block id="TwoFourBar" x="883.0" y="258.0">
+    <Note length="1" pitchOffset="6"/>
+  </Block>
+  <Block id="TwoFourBar" x="862.0" y="107.0">
+    <Note length="1" pitchOffset="3"/>
+  </Block>
+  <Block id="TwoFourBar" x="1023.0" y="421.0">
+    <Note length="1" pitchOffset="-3"/>
+  </Block>
+  <Block id="TwoFourBar" x="1187.0" y="421.0">
+    <Note length="1" pitchOffset="-1"/>
+  </Block>
+  <Block id="TwoFourBar" x="1047.0" y="258.0">
+    <Note length="1" pitchOffset="8"/>
+  </Block>
+  <Block id="TwoFourBar" x="1026.0" y="107.0">
+    <Note length="1" pitchOffset="3"/>
+  </Block>
+  <Block id="EndRepeat" x="1165.0" y="107.0" noRepeats="1">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+  <Block id="EndRepeat" x="1186.0" y="258.0" noRepeats="1">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+  <Block id="EndRepeat" x="1326.0" y="421.0" noRepeats="1">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+</codetta>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codetta>
+  <GlobalTempo bpm="120"/>
+  <Block id="StartBlock" x="102.0" y="147.0"/>
+  <Block id="FourFourBar" x="328.0" y="147.0">
+    <Note length="2" pitchOffset="-3"/>
+    <Note length="2" pitchOffset="-3"/>
+    <Note length="2" pitchOffset="1"/>
+    <Note length="2" pitchOffset="1"/>
+  </Block>
+  <Block id="FourFourBar" x="665.0" y="147.0">
+    <Note length="2" pitchOffset="2"/>
+    <Note length="2" pitchOffset="2"/>
+    <Note length="1" pitchOffset="1"/>
+  </Block>
+  <Block id="FourFourBar" x="1002.0" y="147.0">
+    <Note length="2" pitchOffset="0"/>
+    <Note length="2" pitchOffset="0"/>
+    <Note length="2" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="-1"/>
+  </Block>
+  <Block id="FourFourBar" x="1339.0" y="147.0">
+    <Note length="2" pitchOffset="-2"/>
+    <Note length="2" pitchOffset="-2"/>
+    <Note length="1" pitchOffset="-3"/>
+  </Block>
+</codetta>

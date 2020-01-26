@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codetta>
+  <GlobalTempo bpm="120"/>
+  <Block id="Violin" x="139.0" y="104.0"/>
+  <Block id="Trumpet" x="221.0" y="280.0"/>
+  <Block id="FourFourBar" x="480.0" y="104.0">
+    <Note length="2" pitchOffset="-3"/>
+    <Note length="2" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="1"/>
+    <Note length="2" pitchOffset="4"/>
+  </Block>
+  <Block id="DynamicsBlock" x="254.0" y="104.0" dynamicID="1"/>
+  <Block id="TwoFourBar" x="846.0" y="104.0">
+    <Note length="2" pitchOffset="2"/>
+    <Note length="2" pitchOffset="1"/>
+  </Block>
+  <Block id="DynamicsBlock" x="706.0" y="104.0" dynamicID="6"/>
+  <Block id="TwoFourBar" x="1125.0" y="104.0">
+    <Note length="2" pitchOffset="0"/>
+    <Note length="2" pitchOffset="-1"/>
+  </Block>
+  <Block id="DynamicsBlock" x="985.0" y="104.0" dynamicID="1"/>
+  <Block id="EndRepeat" x="1264.0" y="104.0" noRepeats="7">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+  <Block id="FourFourBar" x="616.0" y="280.0">
+    <Note length="2" pitchOffset="2"/>
+    <Note length="2" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="2"/>
+    <Note length="2" pitchOffset="-1"/>
+  </Block>
+  <Block id="BassClef" x="390.0" y="280.0"/>
+  <Block id="StartRepeat" x="306.0" y="280.0"/>
+  <Block id="EndRepeat" x="842.0" y="280.0" noRepeats="1">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+  <Block id="EndRepeat" x="957.0" y="280.0" noRepeats="1">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+</codetta>

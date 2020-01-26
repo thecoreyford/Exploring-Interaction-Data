@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codetta>
+  <GlobalTempo bpm="120"/>
+  <Block id="StartBlock" x="292.0" y="114.0"/>
+  <Block id="StartBlock" x="294.0" y="264.0"/>
+  <Block id="ThreeFourBar" x="474.0" y="114.0">
+    <Note length="2" pitchOffset="-3"/>
+    <Note length="3" pitchOffset="2"/>
+    <Note length="3" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="0"/>
+  </Block>
+  <Block id="ThreeFourBar" x="723.0" y="114.0">
+    <Note length="2" pitchOffset="0"/>
+    <Note length="3" pitchOffset="-1"/>
+    <Note length="3" pitchOffset="2"/>
+    <Note length="2" pitchOffset="-3"/>
+  </Block>
+  <Block id="EndRepeat" x="905.0" y="114.0" noRepeats="7">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+  <Block id="ThreeFourBar" x="476.0" y="264.0">
+    <Note length="2" pitchOffset="-3"/>
+    <Note length="3" pitchOffset="2"/>
+    <Note length="3" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="0"/>
+  </Block>
+  <Block id="ThreeFourBar" x="725.0" y="264.0">
+    <Note length="2" pitchOffset="0"/>
+    <Note length="3" pitchOffset="-1"/>
+    <Note length="3" pitchOffset="2"/>
+    <Note length="2" pitchOffset="-3"/>
+  </Block>
+  <Block id="TempoChanger" x="907.0" y="264.0" tempoIncrement="1"/>
+  <Block id="EndRepeat" x="1022.0" y="264.0" noRepeats="7">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+</codetta>

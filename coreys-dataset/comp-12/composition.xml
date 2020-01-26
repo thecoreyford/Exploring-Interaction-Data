@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codetta>
+  <GlobalTempo bpm="120"/>
+  <Block id="Trumpet" x="212.0" y="137.0"/>
+  <Block id="Cello" x="299.0" y="301.0"/>
+  <Block id="ThreeFourBar" x="394.0" y="137.0">
+    <Note length="3" pitchOffset="4"/>
+    <Note length="3" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="-1"/>
+    <Note length="2" pitchOffset="-1"/>
+  </Block>
+  <Block id="EndRepeat" x="576.0" y="137.0" noRepeats="3">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+  <Block id="ThreeFourBar" x="596.0" y="301.0">
+    <Note length="2" pitchOffset="2"/>
+    <Note length="2" pitchOffset="-3"/>
+    <Note length="2" pitchOffset="-3"/>
+  </Block>
+  <Block id="BassClef" x="414.0" y="301.0"/>
+  <Block id="EndRepeat" x="778.0" y="301.0" noRepeats="3">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+</codetta>

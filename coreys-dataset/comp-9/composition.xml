@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codetta>
+  <GlobalTempo bpm="120"/>
+  <Block id="Glockenspiel" x="215.0" y="135.0"/>
+  <Block id="ThreeFourBar" x="451.0" y="135.0">
+    <Note length="1" pitchOffset="-1"/>
+    <Note length="3" pitchOffset="0"/>
+    <Note length="3" pitchOffset="1"/>
+  </Block>
+  <Block id="EndRepeat" x="633.0" y="135.0" noRepeats="7">
+    <PitchShifts Shift-0="0" Shift-1="1" Shift-2="2" Shift-3="3" Shift-4="4" Shift-5="5"
+                 Shift-6="6"/>
+  </Block>
+  <Block id="StartRepeat" x="300.0" y="135.0"/>
+  <Block id="EndRepeat" x="748.0" y="135.0" noRepeats="1">
+    <PitchShifts Shift-0="0" Shift-1="0" Shift-2="0" Shift-3="0" Shift-4="0" Shift-5="0"
+                 Shift-6="0"/>
+  </Block>
+</codetta>
