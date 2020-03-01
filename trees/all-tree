@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<clipboard-count &le; 2.5<br/>gini = 0.724<br/>samples = 14<br/>value = [4, 5, 2, 3]<br/>class = some_creative>, fillcolor="#edfceb"] ;
+1 [label=<playback-count &le; 17.0<br/>gini = 0.719<br/>samples = 8<br/>value = [3, 1, 2, 2]<br/>class = least_creative>, fillcolor="#fbeade"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<param-change-count &le; 12.5<br/>gini = 0.56<br/>samples = 5<br/>value = [3, 0, 1, 1]<br/>class = least_creative>, fillcolor="#f2c09c"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 3<br/>value = [3, 0, 0, 0]<br/>class = least_creative>, fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label=<note-edit-count &le; 23.5<br/>gini = 0.5<br/>samples = 2<br/>value = [0, 0, 1, 1]<br/>class = mostly_creative>, fillcolor="#ffffff"] ;
+2 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 0, 1, 0]<br/>class = mostly_creative>, fillcolor="#399de5"] ;
+4 -> 5 ;
+6 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 0, 0, 1]<br/>class = very_creative>, fillcolor="#d739e5"] ;
+4 -> 6 ;
+7 [label=<note-edit-count &le; 50.0<br/>gini = 0.667<br/>samples = 3<br/>value = [0, 1, 1, 1]<br/>class = some_creative>, fillcolor="#ffffff"] ;
+1 -> 7 ;
+8 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 0, 1, 0]<br/>class = mostly_creative>, fillcolor="#399de5"] ;
+7 -> 8 ;
+9 [label=<note-edit-count &le; 73.5<br/>gini = 0.5<br/>samples = 2<br/>value = [0, 1, 0, 1]<br/>class = some_creative>, fillcolor="#ffffff"] ;
+7 -> 9 ;
+10 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1, 0, 0]<br/>class = some_creative>, fillcolor="#47e539"] ;
+9 -> 10 ;
+11 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 0, 0, 1]<br/>class = very_creative>, fillcolor="#d739e5"] ;
+9 -> 11 ;
+12 [label=<note-edit-count &le; 34.0<br/>gini = 0.5<br/>samples = 6<br/>value = [1, 4, 0, 1]<br/>class = some_creative>, fillcolor="#91ef88"] ;
+0 -> 12 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+13 [label=<note-edit-count &le; 28.0<br/>gini = 0.5<br/>samples = 2<br/>value = [1, 0, 0, 1]<br/>class = least_creative>, fillcolor="#ffffff"] ;
+12 -> 13 ;
+14 [label=<gini = 0.0<br/>samples = 1<br/>value = [1, 0, 0, 0]<br/>class = least_creative>, fillcolor="#e58139"] ;
+13 -> 14 ;
+15 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 0, 0, 1]<br/>class = very_creative>, fillcolor="#d739e5"] ;
+13 -> 15 ;
+16 [label=<gini = 0.0<br/>samples = 4<br/>value = [0, 4, 0, 0]<br/>class = some_creative>, fillcolor="#47e539"] ;
+12 -> 16 ;
+}
