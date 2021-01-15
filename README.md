@@ -5,4 +5,4 @@ This project contains the code used to analyse interaction data log's, captured 
 
 It uses a dataset of compositions (.xml) and interation logs (.csv) created by me, as a "pilot analysis" for a larger study - collecting a dataset from children using Codetta to write their own compositions. 
 
-Essessially, each compostion will be judged in term's of creativeness (google Amabile Consenstual Assesment), and then a linear regreesion (or different model) will be used to see what iteractions with Codetta best support creativity. 
+If accessing this from NIME, the reason that only this example project is provided is that the children's data needed to be destroyed as a condition of the ethics review. This is indicitive of the analysis that is described in the paper.
